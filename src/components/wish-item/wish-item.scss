@@ -1,0 +1,36 @@
+.wish-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: auto;
+  font-size: 24px;
+  color: whitesmoke;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__box {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+  
+    border-radius: 10px;
+  }
+
+  &__button {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+
+    &:hover {
+      background-color: rgb(88, 86, 86); 
+    }
+  }
+}
