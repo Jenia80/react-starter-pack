@@ -17,9 +17,9 @@ export function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="contact" element={<ContactUs />} />
+          <Route path="contact#" element={<ContactUs />} />
           <Route path="wish" element={<WishPage />} />
-          <Route path="login" element={<SignupForm />} />
+          <Route path="login#" element={<SignupForm />} />
         </Routes>
       </div>
     </Provider>

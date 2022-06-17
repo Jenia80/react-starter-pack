@@ -19,23 +19,26 @@ function ContactUs() {
     <div>
       <h1>REACT HOOK FORM</h1>
       <form className="contact-me" onSubmit={handleSubmit(onSubmit)}>
-        <label>
-          First Name:
-          <input
-            {...register('firstName', {
-              required: false,
-            })}
-          />
-        </label>
 
-        <label>
-          Second Name:
-          <input
-            {...register('secondName', {
-              required: false,
-            })}
-          />
-        </label>
+        <div className="contact-me__name">
+          <label>
+            First Name:
+            <input
+              {...register('firstName', {
+                required: false,
+              })}
+            />
+          </label>
+
+          <label>
+            Second Name:
+            <input
+              {...register('secondName', {
+                required: false,
+              })}
+            />
+          </label>
+        </div>
 
         <label>
           Email:
@@ -45,6 +48,16 @@ function ContactUs() {
               required: false,
             })}
           />
+        </label>
+
+        <label>
+          Pick your favorite La Croix flavor:
+          <select>
+            <option value="grapefruit">Grapefruit</option>
+            <option value="lime">Lime</option>
+            <option value="coconut">Coconut</option>
+            <option value="mango">Mango</option>
+          </select>
         </label>
 
         <label>
