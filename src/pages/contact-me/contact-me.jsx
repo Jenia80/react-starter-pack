@@ -51,12 +51,12 @@ function ContactUs() {
         </label>
 
         <label>
-          Pick your favorite La Croix flavor:
+          Pick your favorite drink:
           <select>
-            <option value="grapefruit">Grapefruit</option>
-            <option value="lime">Lime</option>
-            <option value="coconut">Coconut</option>
-            <option value="mango">Mango</option>
+            <option value="grapefruit">Gin</option>
+            <option value="lime">Vodka</option>
+            <option value="coconut">Whisky</option>
+            <option value="mango">Rom</option>
           </select>
         </label>
 
